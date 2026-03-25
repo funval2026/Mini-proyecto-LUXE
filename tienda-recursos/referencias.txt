@@ -1,0 +1,87 @@
+pagina peruana de moda:
+https://intimodaperu.com/
+
+utiles:
+importaciones/
+import CategoryDetail from "./componentes/CategoryDatail";
+import CategoryCard from "./componentes/CategoryCard";
+
+rutas/
+ <Route path="/SearchBard" element={<SearchBar />} />
+        <Route path="filtro-categoria" element={<CategoryFilter />} />
+        <Route path="/categoriaCard/:" element={<CategoryCard />} />
+        <Route path="DetallesProducto/:idCard" element={<CategoryDetail />} />
+
+ <Routes>
+        <Route path="/" element={<Home />}> <Route/>
+        <Route path="/productosPage/:id" element={<ProductosPage />}><Route/>
+       
+      </Routes>
+
+import ProductDetail from "../componentes/ProductDetail";
+import ProductCard from "../componentes/ProductCard";
+import SearchBar from "../componentes/SearchBard";
+import CategoryFilter from "../componentes/CategoryFilter";
+import Loading from "../componentes/Loading";
+import ProductosPage from "./ProductosPage";
+
+ <Header />
+      
+      <CategoryFilter />
+      <Loading />
+      <ProductCard />
+      <ProductDetail />
+       <SearchBar />
+codigos;
+
+ <>
+     <Header>
+        <Nav>
+          <li>Electronics</li>
+          <li>Jewelry</li>
+          <li>Mens</li>
+          <li>Womens</li>
+          <SearchBard></SearchBard>
+        </Nav>
+        <Hero>
+          <div>
+            <img></img>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div>
+              <button></button>
+              <button></button>
+            </div>
+          </div>
+        </Hero>
+        <div>
+          <p></p>
+          <p></p>
+          <CategoryFilter></CategoryFilter>
+
+          <button></button>
+        </div>
+      </Header>
+
+      <div>
+        <SearchBar> </SearchBar>
+        <ProductDetail></ProductDetail>
+
+        <ProductCard></ProductCard>
+        <ListCountry></ListCountry>
+        <Footer></Footer>
+      </div>
+
+      <Footer></Footer>
+
+ <ProductDetail />
+    </>
+
+ {/* Título */}
+          <h1 className="text-4xl md:text-5xl font-bold text-white ">
+            Redefine Your </h1>
+            <h1 className="ext-4xl md:text-5xl font-bold text-blue-600">
+            Everyday Style
+            </h1>

@@ -1,0 +1,16 @@
+10. Cómo haces 12 páginas rápido (esto es CLAVE)
+
+No hagas 12 proyectos.
+
+👉 Haz 1 plantilla y cambias:
+
+colores (Tailwind)
+texto (ej: tienda ropa, tech, etc.)
+imágenes (API ya las da)
+
+💡 Ejemplo:
+
+Tienda 1 → Ropa
+Tienda 2 → Electrónica
+Tienda 3 → Joyería
+(solo cambia categorías y estilos)
