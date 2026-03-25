@@ -16,7 +16,7 @@ function ProductDetail() {
         );
 
         setPunico(data);
-        console.log(data);
+        
       } catch (error) {
         console.log("Algo salió mal:", error);
       }

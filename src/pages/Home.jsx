@@ -37,7 +37,7 @@ function Home({ search, setCart }) {
         <p className="text-center text-gray-500">No se encontraron productos</p>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 px-20 flex-col">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-20 flex-col">
         {filteredProducts.map((prod) => (
           <ProductCard key={prod.id} product={prod} />
         ))}
